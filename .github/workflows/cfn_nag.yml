@@ -35,7 +35,7 @@ jobs:
           output_path: cfn_nag.sarif
 
       - name: Upload SARIF file
-        uses: github/codeql-action/upload-sarif@b2ff80ddacba59b60f4e0cf3b699baaea3230cd9 # v4.31.9
+        uses: github/codeql-action/upload-sarif@0c0c5dc2f136b98cb0537075ccfa21f94cd9a63e # v4.31.9
 
         # Results are generated only on a success or failure
         # this is required since GitHub by default won't run the next step
